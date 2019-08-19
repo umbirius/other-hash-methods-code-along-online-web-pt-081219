@@ -9,7 +9,6 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  groceries.each do |group, value| 
-    group.value
+  groceries.value
   end 
 end
